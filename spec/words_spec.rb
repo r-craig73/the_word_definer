@@ -11,7 +11,7 @@ require 'pry'
 
   describe('.save') do
     it("list will save the word") do
-      word1 = Words.new({:word=> "basin"})
+      word1 = Words.new({:word=> "basin", :definition=> "a washbowl"})
       word1.save
       expect(word1.word()).to(eq("basin"))
     end
@@ -19,9 +19,9 @@ require 'pry'
 
   describe('.save') do
     it("list will save multiple words") do
-      word1 = Words.new({:word=> "basin"})
+      word1 = Words.new({:word=> "basin", :definition=> "a washbowl"})
       word1.save
-      word2 = Words.new({:word=> "fragile"})
+      word2 = Words.new({:word=> "fragile", :definition=> "easily broken"})
       word2.save
       expect(word1.word()).to(eq("basin"))
       expect(word2.word()).to(eq("fragile"))

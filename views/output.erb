@@ -1,0 +1,7 @@
+<h3>List of word(s)</h3>
+
+<% @list.each do |word_defintion| %>
+  <h4><a href="/output/<%= word_defintion.word() %>"><%= word_defintion.word() %></a></h4>
+<% end %>
+<br>
+<a href="/">Define another word</a>

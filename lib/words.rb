@@ -6,6 +6,7 @@ class Words
 
   def initialize(attributes)
     @word = attributes.fetch(:word)
+    @definition = attributes.fetch(:definition)
     @word_list = []
   end
 

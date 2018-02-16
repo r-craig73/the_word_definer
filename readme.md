@@ -5,10 +5,14 @@
 ### Heroku website: TBD
 
 ## Description
-### An app using ruby, Sinatra and Heroku for kids to input words and definitions to the word.  After viewing the word, the user should be able to input more definitions.
+### An app using ruby, Sinatra and Heroku for kids to input words and definitions to the app.  After viewing the word, the user should be able to input more definitions.
 
 ## Specification
-1. Check if the word input is a word.
+1. Clear the list.
+2. The list saves a word.
+3. The list saves two words.
+4. After clicking the Add! button, the word is moved to the output folder (integration_spec)
+5.  
 
 ## Setup/Installation Requirements
 ### Install Ruby Gems (rspec and pry).
