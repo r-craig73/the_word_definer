@@ -11,5 +11,4 @@ describe('list of words', {:type => :feature}) do
     click_button('Add!')
     expect(page).to have_content('basin')
   end
-
 end

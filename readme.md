@@ -12,7 +12,7 @@
 2. The list saves a word.
 3. The list saves two words.
 4. After clicking the Add! button, the word is moved to the output folder (integration_spec)
-5.  
+5. Finds a word after searching through the list of words
 
 ## Setup/Installation Requirements
 ### Install Ruby Gems (rspec and pry).

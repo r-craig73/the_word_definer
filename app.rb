@@ -15,5 +15,4 @@ post('/output') do
   @list = Words.all()
   # binding.pry
   erb(:output)
-
 end
