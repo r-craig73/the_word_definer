@@ -22,12 +22,12 @@ class Words
     @@list = []
   end
 
-  # def self.find(word)
-  #   @@list.each do |item|
-  #     if item.word == word
-  #       return item
-  #     end
-  #   end
-  # end
+  def self.find(word)
+    @@list.each do |item|
+      if item.word == word
+        return item
+      end
+    end
+  end
 
 end
