@@ -13,9 +13,9 @@ class Words
     @@list
   end
 
-  # def save()
-  #   @@list.push(self)
-  # end
+  def save()
+    @@list.push(self)
+  end
 
 
   def self.clear()
