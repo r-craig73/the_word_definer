@@ -1,0 +1,13 @@
+<h2><%= @description %></h2>
+
+<form action="/output">
+  <div class="form-group">
+    <label for="word">Please input your word</label>
+    <input type="word" name="word" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="definition">How would you define this word</label>
+    <input type="definition" name="definition" class="form-control" type="text">
+  </div>
+  <button type="submit" class="btn btn-info">Add!</button>
+</form>
