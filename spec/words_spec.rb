@@ -1,10 +1,10 @@
 require 'rspec'
-require 'word'
+require 'words'
 require 'pry'
 
   describe('.all') do
-    it("empty the list") do
+    it("list is empty") do
       Words.clear
-      expects(Words.all()).to(eq([]))
+      expect(Words.all()).to(eq([]))
     end
   end

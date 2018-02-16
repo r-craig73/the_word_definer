@@ -9,7 +9,11 @@ class Words
   end
 
   def self.all()
-  #   @@list
+    @@list
+  end
+
+  def self.clear()
+    @@list = []
   end
 
 end
