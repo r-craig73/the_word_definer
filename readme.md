@@ -17,11 +17,12 @@
 ## Setup/Installation Requirements
 ### Install Ruby Gems (rspec and pry).
 ### Install Sinatra Gem.
-### Install Heroku.
+### Install Heroku.  Heroku is not running yet on Win10 OS, 64-bit.
 
 ## Known Bugs
-1. After generating the list of words, a user cannot select the word to view the definition.
-2. The code is not children friendly
+1. After generating the list of words in the app, the user cannot select the word to view the definition.
+2. The code is not children friendly.
+3. No Heroku website.
 
 ## Technology used
 * ruby
