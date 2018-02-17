@@ -2,7 +2,7 @@
 
 #### by Ron Craig (ron.craig@comcast.net), updated 02/16/2018
 ### GitHub repository: https://github.com/r-craig73/the_word_definer.git
-### Heroku website: TBD
+### Heroku website: https://safe-waters-68108.herokuapp.com/ (02/16/2018, 5:20pm)
 
 ## Description
 ### An app using ruby, Sinatra and Heroku for kids to input words and definitions to the app.  After viewing the word, the user should be able to input more definitions.
