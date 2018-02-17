@@ -20,7 +20,8 @@
 ### Install Heroku.
 
 ## Known Bugs
-### None at the moment.
+1. After generating the list of words, a user cannot select the word to view the definition.
+2. The code is not children friendly
 
 ## Technology used
 * ruby
