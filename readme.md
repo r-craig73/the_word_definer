@@ -1,7 +1,7 @@
 # the_word_definer
 
 #### by Ron Craig (ron.craig@comcast.net), updated 02/16/2018
-### GitHub repository: https://github.com/r-craig73/the_word_definer.git
+### GitHub repository: https://github.com/r-craig73/the_word_definer
 ### Heroku website: https://safe-waters-68108.herokuapp.com/ (02/16/2018, 5:20pm)
 
 ## Description
@@ -17,12 +17,13 @@
 ## Setup/Installation Requirements
 ### Install Ruby Gems (rspec and pry).
 ### Install Sinatra Gem.
-### Install Heroku.  Heroku is not running yet on Win10 OS, 64-bit.
+### Install Heroku (for Win10 OS, 64-bit, use cmd.exe).
 
 ## Known Bugs
 1. After generating the list of words in the app, the user cannot select the word to view the definition.
 2. The code is not children friendly.
-3. No Heroku website.
+3. Heroku website is available, but partially completed (02/16/2018, 6pm)
+4. Binding Pry debugging issues with windows computer.
 
 ## Technology used
 * ruby

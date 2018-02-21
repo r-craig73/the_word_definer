@@ -1,8 +1,7 @@
-#!/usr/bin/ruby
 module Word_Definition_Pair
   class Words
     @@list = []
-    attr_accessor :word
+    attr_accessor :word, :definition
 
     def initialize(attributes)
       @word = attributes.fetch(:word)
@@ -29,6 +28,7 @@ module Word_Definition_Pair
         end
       end
     end
+
   end
 end
 
