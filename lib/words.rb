@@ -39,6 +39,5 @@ module New_Definition
       @definition = attributes.fetch(:definition)
     end
 
-
   end
 end

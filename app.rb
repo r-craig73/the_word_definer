@@ -13,14 +13,11 @@ post('/output') do
   word_definition = Word_Definition_Pair::Words.new(params)
   word_definition.save
   @list = Word_Definition_Pair::Words.all()
-
   erb(:output)
 end
 
 get('/output/:word') do
-
   @word = Word_Definition_Pair::Words.find(params[:word])
   @definition = Word_Definition_Pair::Words.find(params[:word])
-  #binding.pry
   erb(:definitions)
 end
