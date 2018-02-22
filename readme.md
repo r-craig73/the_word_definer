@@ -1,29 +1,31 @@
 # the_word_definer
 
-#### by Ron Craig (ron.craig@comcast.net), updated 02/16/2018
+#### by Ron Craig (ron.craig@comcast.net)
+#### updated 02/21/2018, previous version 02/16/2018
+
 ### GitHub repository: https://github.com/r-craig73/the_word_definer
-### Heroku website: https://safe-waters-68108.herokuapp.com/ (02/16/2018, 5:20pm)
+### Heroku website: https://gentle-inlet-12578.herokuapp.com/
+### Heroku remote git: https://git.heroku.com/gentle-inlet-12578.git
+
+### Previous Heroku website: https://safe-waters-68108.herokuapp.com/
 
 ## Description
 ### An app using ruby, Sinatra and Heroku for kids to input words and definitions to the app.  After viewing the word, the user should be able to input more definitions.
 
-## Specification
+## Specifications
 1. Clear the list.
 2. The list saves a word.
-3. The list saves two words.
-4. After clicking the Add! button, the word is moved to the output folder (integration_spec)
-5. Finds a word after searching through the list of words
+3. The list saves multiple words.
+4. Finds a word after searching through the list of words.
+5. After inputting several words and definitions, a user can select a word to view the definition (integration_spec).
 
 ## Setup/Installation Requirements
-### Install Ruby Gems (rspec and pry).
+### Install Ruby Gems.
 ### Install Sinatra Gem.
-### Install Heroku (for Win10 OS, 64-bit, use cmd.exe).
+### Install Heroku.
 
 ## Known Bugs
-1. After generating the list of words in the app, the user cannot select the word to view the definition.
-2. The code is not children friendly.
-3. Heroku website is available, but partially completed (02/16/2018, 6pm)
-4. Binding Pry debugging issues with windows computer.
+1. The application is not children friendly.
 
 ## Technology used
 * ruby
